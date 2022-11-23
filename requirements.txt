@@ -2,3 +2,6 @@ streamlit==1.15.0
 pandas
 plost
 requests
+json
+matplotlib
+seaborn
