@@ -1,4 +1,11 @@
 streamlit==1.15.0
 pandas
 plost
+<<<<<<< HEAD
+=======
 requests
+json
+numpy
+matplotlib
+seaborn
+>>>>>>> parent of 136ff8f (Update requirements.txt)
