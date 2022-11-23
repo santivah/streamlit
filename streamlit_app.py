@@ -6,7 +6,7 @@ import numpy as np
 import plost                # this package is used to create plots/charts within streamlit
 from PIL import Image       # this package is used to put images within streamlit
 
-from api_connection import get_data_from_api
+#from api_connection import get_data_from_api       # keep this commented if not using it otherwise brakes the app
 
 # Page setting
 st.set_page_config(layout="wide")
