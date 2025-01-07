@@ -11,7 +11,7 @@ from PIL import Image       # this package is used to put images within streamli
 # Page setting
 st.set_page_config(layout="wide")
 
-with open('style.css') as f:
+with open(r'C:\Users\kotar\OneDrive - The Institute of Sustainable Energy Stichting\1. INNOENERGY MASTER\2. UPC BARCELONA\Subjects\Control & Automation\Streamlit\streamlit\style.css') as f:
     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 # Data
@@ -22,7 +22,7 @@ stocks = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/maste
 ### Here starts the web app design
 # Row A
 a1, a2, a3 = st.columns(3)
-a1.image(Image.open('streamlit-logo-secondary-colormark-darktext.png'))
+a1.image(Image.open(r'C:\Users\kotar\OneDrive - The Institute of Sustainable Energy Stichting\1. INNOENERGY MASTER\2. UPC BARCELONA\Subjects\Control & Automation\Streamlit\streamlit\streamlit-logo-secondary-colormark-darktext.png'))
 a2.metric("Wind", "9 mph", "-8%")
 a3.metric("Humidity", "86%", "4%")
 
